@@ -1,9 +1,15 @@
-# **3DITISE
+# **3DITISE**
 A 3D Inspection Toolkit for Interactive Spatial Education 
 <img width="1383" height="774" alt="image" src="https://github.com/user-attachments/assets/3274249f-5050-4883-acd4-9b6f362ebfed" />
 
 ## **ABSTRACT**
 World-to-camera and camera-to-world transformations are fundamental to photogrammetry, remote sensing, and computer vision, yet teaching these concepts can be difficult because the underlying geometry is often perceived as mathematically abstract. 3DITISE improves this knowledge transfer by rendering photogrammetric models in Unreal Engine and making reprojection workflows interactive and directly observable. As a practical tool, 3DITISE allows users to annotate objects in georeferenced 3D space and project these annotations into the original images in a distortion- and occlusion-aware manner, thereby facilitating the generation of large and spatially consistent image datasets for computer vision tasks. Conversely, the platform allows raw bounding-box predictions to be projected and aggregated back into 3D space, enabling object detection results to be evaluated in their spatial context rather than only in image space. In this way, 3DITISE provides a practical entry point for professionals and educators to understand, teach, and apply image-based spatial reasoning. Additionally, we implemented a game mode to excite younger audiences about computer vision and AI capabilities.
+
+## **Installation:**
+- Download and unzip the files
+- For Gaussian Splat support (Background renders), install https://www.jawset.com/ with UE5.7 plugin and login to the tool once.
+- Run 3Ditise and open project file "*_infraspect.json" in the example project folder
+- The program might ask how to redirect the original image directory. Use the paths from Replace_paths.txt (Check your folder paths)
 
 ## **Motivation:**
 3DITISE was initially conceived as an interactive platform for public outreach, with the aim of making concepts from geomatics, computer vision, and spatial AI accessible to a broad audience. It will be demonstrated at Maker Faire Ghent 2026, where visitors explore research data via a textured digital bridge model and interact directly with the geometric principles and vision-based methods which underlie modern inspection workflows. By embedding these concepts in a visually rich and intuitive environment, the platform is designed to lower the entry barrier to topics that are often perceived as mathematically abstract or technically inaccessible. Beyond outreach, the platform was developed in response to the practical lack of an accessible tool for efficient object detection dataset annotation and for evaluating model performance in spatial context.
